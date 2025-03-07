@@ -1,0 +1,440 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"8 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\main.c
+[e E10496 . `uc
+operational_mode 0
+config_mode 1
+id_mode 2
+stock_mode 3
+]
+"24 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\config_mode.c
+[e E10496 . `uc
+operational_mode 0
+config_mode 1
+id_mode 2
+stock_mode 3
+]
+"64 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\node_id.c
+[e E10496 . `uc
+operational_mode 0
+config_mode 1
+id_mode 2
+stock_mode 3
+]
+"64 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\update_stock.c
+[e E10496 . `uc
+operational_mode 0
+config_mode 1
+id_mode 2
+stock_mode 3
+]
+"28 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\can.c
+[e E10511 _CanOpMode `uc
+e_can_op_mode_bits 224
+e_can_op_mode_normal 0
+e_can_op_mode_sleep 32
+e_can_op_mode_loop 64
+e_can_op_mode_listen 96
+e_can_op_mode_config 128
+]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"20 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"64
+[v _can_receive can_receive `(uc  1 e 1 0 ]
+"96
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+"8 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\config_mode.c
+[v _configuration_mode configuration_mode `(v  1 e 1 0 ]
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"9
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\eeprom.c
+[v _write_internal_eeprom write_internal_eeprom `(v  1 e 1 0 ]
+"47
+[v _read_internal_eeprom read_internal_eeprom `(uc  1 e 1 0 ]
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\external_interrupt.c
+[v _init_external_interrupt init_external_interrupt `(v  1 e 1 0 ]
+"5 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+"9 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"19
+[v _main main `(v  1 e 1 0 ]
+"6 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\node_id.c
+[v _node_id_mode node_id_mode `(v  1 e 1 0 ]
+"13 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\operational_mode.c
+[v _operation_mode operation_mode `(v  1 e 1 0 ]
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\ssd.c
+[v _init_ssd_control init_ssd_control `(v  1 e 1 0 ]
+"16
+[v _display display `(v  1 e 1 0 ]
+"6 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\update_stock.c
+[v _update_stock_mode update_stock_mode `(v  1 e 1 0 ]
+"4423 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"14804
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"14916
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"15017
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3842 ]
+"15129
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3843 ]
+"20964
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21076
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21168
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21280
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21392
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21470
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"21532
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3911 ]
+"21594
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3912 ]
+"21656
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3913 ]
+"21718
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3914 ]
+"21780
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3915 ]
+"21842
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3916 ]
+"21904
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3917 ]
+"23529
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"23722
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23834
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"23936
+[v _RXB0EIDH RXB0EIDH `VEuc  1 e 1 @3939 ]
+"24048
+[v _RXB0EIDL RXB0EIDL `VEuc  1 e 1 @3940 ]
+"24160
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24275
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24337
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"24399
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"24461
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"24523
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"24585
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"24647
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"24709
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"24771
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24880
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24984
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25046
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25117
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25435
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25506
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"25889
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"26059
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"26838
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27282
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27504
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S152 . 1 `uc 1 ECCP1IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"28277
+[s S161 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S164 . 1 `S152 1 . 1 0 `S161 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES164  1 e 1 @4001 ]
+[s S122 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"28714
+[s S131 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S134 . 1 `S122 1 . 1 0 `S131 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES134  1 e 1 @4006 ]
+"28759
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"28766
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"28773
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"35492
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"35570
+[v _INT0E INT0E `VEb  1 e 0 @32660 ]
+"35573
+[v _INT0F INT0F `VEb  1 e 0 @32657 ]
+"35624
+[v _INTEDG0 INTEDG0 `VEb  1 e 0 @32654 ]
+"36086
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36665
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36671
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"39185
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39188
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39605
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"7 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\can.c
+[v _can_payload can_payload `[13]uc  1 e 13 0 ]
+"3 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\config_mode.c
+[v _node_id node_id `[4]uc  1 e 4 0 ]
+"4
+[v _update_stock update_stock `[4]uc  1 e 4 0 ]
+"5 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\main.c
+[v _digit digit `[10]uc  1 e 10 0 ]
+"6
+[v _key_detected key_detected `ui  1 e 2 0 ]
+"7
+[v _flag flag `uc  1 e 1 0 ]
+"8
+[v _current_state current_state `E10496  1 e 1 0 ]
+"3 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\operational_mode.c
+[v _ssd ssd `[4]uc  1 e 4 0 ]
+"6
+[v _can_n_id can_n_id `i  1 s 2 can_n_id ]
+"7
+[v _n_id n_id `i  1 s 2 n_id ]
+"9
+[v _can_u_st can_u_st `i  1 s 2 can_u_st ]
+"10
+[v _flag@operational_mode$F309 flag `uc  1 s 1 flag ]
+"11
+[v _delay delay `ui  1 e 2 0 ]
+"19 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"22
+[v main@key key `uc  1 a 1 33 ]
+"60
+} 0
+"6 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\update_stock.c
+[v _update_stock_mode update_stock_mode `(v  1 e 1 0 ]
+{
+[v update_stock_mode@key key `uc  1 p 1 wreg ]
+[v update_stock_mode@key key `uc  1 p 1 wreg ]
+"8
+[v update_stock_mode@field field `uc  1 s 1 field ]
+"9
+[v update_stock_mode@a a `i  1 s 2 a ]
+[v update_stock_mode@b b `i  1 s 2 b ]
+[v update_stock_mode@c c `i  1 s 2 c ]
+[v update_stock_mode@d d `i  1 s 2 d ]
+[v update_stock_mode@key key `uc  1 p 1 17 ]
+"100
+} 0
+"13 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\operational_mode.c
+[v _operation_mode operation_mode `(v  1 e 1 0 ]
+{
+[v operation_mode@key key `uc  1 p 1 wreg ]
+"15
+[v operation_mode@key1 key1 `uc  1 a 1 32 ]
+"13
+[v operation_mode@key key `uc  1 p 1 wreg ]
+"16
+[v operation_mode@key key `uc  1 p 1 31 ]
+"89
+} 0
+"9 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 wreg ]
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 wreg ]
+"11
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"13
+[v read_digital_keypad@detection_type detection_type `uc  1 p 1 0 ]
+"32
+} 0
+"96 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\can.c
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+{
+"116
+} 0
+"64
+[v _can_receive can_receive `(uc  1 e 1 0 ]
+{
+"93
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 13 ]
+[v ___awmod@counter counter `uc  1 a 1 12 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 8 ]
+[v ___awmod@divisor divisor `i  1 p 2 10 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"6 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\node_id.c
+[v _node_id_mode node_id_mode `(v  1 e 1 0 ]
+{
+[v node_id_mode@key key `uc  1 p 1 wreg ]
+[v node_id_mode@key key `uc  1 p 1 wreg ]
+"8
+[v node_id_mode@field field `uc  1 s 1 field ]
+"9
+[v node_id_mode@a a `i  1 s 2 a ]
+[v node_id_mode@b b `i  1 s 2 b ]
+[v node_id_mode@c c `i  1 s 2 c ]
+[v node_id_mode@d d `i  1 s 2 d ]
+[v node_id_mode@key key `uc  1 p 1 17 ]
+"96
+} 0
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\eeprom.c
+[v _write_internal_eeprom write_internal_eeprom `(v  1 e 1 0 ]
+{
+[v write_internal_eeprom@address address `uc  1 p 1 wreg ]
+[v write_internal_eeprom@address address `uc  1 p 1 wreg ]
+[v write_internal_eeprom@data data `uc  1 p 1 14 ]
+"7
+[v write_internal_eeprom@address address `uc  1 p 1 15 ]
+"45
+} 0
+"47
+[v _read_internal_eeprom read_internal_eeprom `(uc  1 e 1 0 ]
+{
+[v read_internal_eeprom@address address `uc  1 p 1 wreg ]
+[v read_internal_eeprom@address address `uc  1 p 1 wreg ]
+"50
+[v read_internal_eeprom@address address `uc  1 p 1 0 ]
+"66
+} 0
+"9 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"18
+} 0
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\ssd.c
+[v _init_ssd_control init_ssd_control `(v  1 e 1 0 ]
+{
+"13
+} 0
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\external_interrupt.c
+[v _init_external_interrupt init_external_interrupt `(v  1 e 1 0 ]
+{
+"11
+} 0
+"4 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"7
+} 0
+"20 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"61
+} 0
+"8 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\config_mode.c
+[v _configuration_mode configuration_mode `(v  1 e 1 0 ]
+{
+[v configuration_mode@key key `uc  1 p 1 wreg ]
+[v configuration_mode@key key `uc  1 p 1 wreg ]
+"10
+[v configuration_mode@mode_flag mode_flag `uc  1 s 1 mode_flag ]
+"11
+[v configuration_mode@mode_selected mode_selected `uc  1 s 1 mode_selected ]
+[v configuration_mode@key key `uc  1 p 1 6 ]
+"49
+} 0
+"16 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\ssd.c
+[v _display display `(v  1 e 1 0 ]
+{
+"18
+[v display@wait wait `ui  1 a 2 3 ]
+"20
+[v display@digit digit `uc  1 a 1 5 ]
+"16
+[v display@data data `*.30uc  1 p 1 0 ]
+"29
+} 0
+"5 C:\Users\gopiv.VIVEK\MPLABXProjects\Pick_2_Light.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"13
+} 0
